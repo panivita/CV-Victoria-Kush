@@ -1,13 +1,8 @@
 import React from 'react';
 import 'font-awesome/css/font-awesome.min.css';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab, faJs } from '@fortawesome/free-brands-svg-icons';
 import logoSvg from './img/js.svg';
 import './App.css';
 import './my-cv.css';
-
-library.add(fab, faJs)
-
 
 function App() {
   return (
@@ -70,9 +65,10 @@ function App() {
         <ul>
           <li><i className="fa fa-html5"></i>HTML</li>
           <li><i className='fa fa-css3'></i>CSS</li>
-          <li>
+          <li className="logo-js">
             <img src={logoSvg} alt="logo js" />
-            JavaScript</li>
+            JavaScript
+          </li>
         </ul>
       </section>
       <section className="education">
