@@ -7,7 +7,9 @@ function App() {
   return (
     <div className="main-container">
       <header className="header-container">
-        <img src="https://secure.gravatar.com/avatar/3da283f44646867ed9c7e7e022340300?size=150" align="left" alt="foto"/>
+        <div className="profil-foto">
+          <img src="https://secure.gravatar.com/avatar/3da283f44646867ed9c7e7e022340300?size=150" align="left" alt="foto"/>
+        </div>
         <div className="main-info">
           <h1>Victoria Kush</h1>
           <ul>
