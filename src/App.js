@@ -1,9 +1,10 @@
 import React from 'react';
 import 'font-awesome/css/font-awesome.min.css';
-import './App.css';
-import './my-cv.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab, faJs } from '@fortawesome/free-brands-svg-icons';
+import logoSvg from './img/js.svg';
+import './App.css';
+import './my-cv.css';
 
 library.add(fab, faJs)
 
@@ -13,7 +14,7 @@ function App() {
     <div className="main-container">
       <header className="header-container">
         <div className="profil-foto">
-          <img src="https://secure.gravatar.com/avatar/3da283f44646867ed9c7e7e022340300?size=150" align="left" alt="foto"/>
+          <img src="https://secure.gravatar.com/avatar/3da283f44646867ed9c7e7e022340300?size=150" align="left" alt="foto" />
         </div>
         <div className="main-info">
           <h1>Victoria Kush</h1>
@@ -69,7 +70,9 @@ function App() {
         <ul>
           <li><i className="fa fa-html5"></i>HTML</li>
           <li><i className='fa fa-css3'></i>CSS</li>
-          <li><i className='fab fa-js'></i>JavaScript</li>
+          <li>
+            <img src={logoSvg} alt="logo js" />
+            JavaScript</li>
         </ul>
       </section>
       <section className="education">

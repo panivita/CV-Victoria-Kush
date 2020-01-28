@@ -76,6 +76,10 @@ i {
 }
 .skills li {
   list-style: none;
+  
+}
+.skills img {
+  width: 28px;
 }
 footer {
   margin-top: 30px;
