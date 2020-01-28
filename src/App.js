@@ -2,6 +2,11 @@ import React from 'react';
 import 'font-awesome/css/font-awesome.min.css';
 import './App.css';
 import './my-cv.css';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab, faJs } from '@fortawesome/free-brands-svg-icons';
+
+library.add(fab, faJs)
+
 
 function App() {
   return (
