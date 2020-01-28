@@ -7,15 +7,18 @@ function App() {
   return (
     <div className="main-container">
       <header className="header-container">
-        <img src="https://secure.gravatar.com/avatar/3da283f44646867ed9c7e7e022340300?size=150" align="left" alt="foto" />
+        <img src="https://secure.gravatar.com/avatar/3da283f44646867ed9c7e7e022340300?size=150" align="left" alt="foto"/>
         <div className="main-info">
           <h1>Victoria Kush</h1>
           <ul>
-            <li><a href="tel:71465372"><i className='fa fa-phone'></i>71 46 53 72</a></li>
             <li>
-              <a href="mailto:victoria.v.kush@gmail.com?" subject="subject text"><i className='fa fa-envelope'></i> victoria.v.kush@gmail.com</a>
+              <i className='fa fa-phone'></i><a href="tel:71465372">71 46 53 72</a>
             </li>
-            <li><a href="https://www.linkedin.com/in/victoria-kush-4a0455155"><i className='fa fa-linkedin'></i> https://www.linkedin.com/in/victoria-kush-4a0455155/</a>
+            <li>
+              <i className='fa fa-envelope'></i><a href="mailto:victoria.v.kush@gmail.com?" subject="subject text">victoria.v.kush@gmail.com</a>
+            </li>
+            <li>
+              <i className='fa fa-linkedin'></i><a href="https://www.linkedin.com/in/victoria-kush-4a0455155">https://www.linkedin.com/in/victoria-kush-4a0455155/</a>
             </li>
           </ul>
         </div>
@@ -58,27 +61,24 @@ function App() {
         <h2>SKILLS</h2>
         <ul>
           <li><i className="fa fa-html5"></i>HTML</li>
-          <li><i className='fa fa-css3-alt'></i>CSS </li>
-          <li><i className='fa fa-js'></i>JavaScript</li>
+          <li><i className='fa fa-css3'></i>CSS</li>
+          <li><i className='fab fa-js'></i>JavaScript</li>
         </ul>
       </section>
       <section className="education">
         <h2>EDUCATION</h2>
-        <ul>
-          <ul>
-            <li>Ph.d. in  Psychology V. N. Karazin Kharkiv National University.</li>
-            <li className="years">2008 – 2012</li>
-          </ul>
-          <ul>
-            <li>Master's Degree in Psychology V. N. Karazin Kharkiv National University.</li>
-            <li className="years">2007 – 2008</li>
-          </ul>
-          <ul>
-            <li>Bachelor's Degree in Psychology V. N. Karazin Kharkiv National University.</li>
-            <li className="years">2003-2008</li>
-          </ul>
-        </ul>
+        <h3>Ph.d. in  Psychology V. N. Karazin Kharkiv National University.</h3>
+        <p><i>2008 – 2012</i></p>
+        <h3>Master's Degree in Psychology V. N. Karazin Kharkiv National University.</h3>
+        <p><i>2007 – 2008</i></p>
+        <h3>Bachelor's Degree in Psychology V. N. Karazin Kharkiv National University.</h3>
+        <p><i>2003-2008</i></p>
       </section>
+      <footer>
+        <section className="copyright">
+          © 2020 Victoria Kush
+        </section>
+      </footer>
     </div>
   );
 }
