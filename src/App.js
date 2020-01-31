@@ -1,4 +1,5 @@
 import React from 'react';
+import Iframe from 'react-iframe'
 import 'font-awesome/css/font-awesome.min.css';
 import logoSvg from './img/js.svg';
 import './App.css';
@@ -9,19 +10,19 @@ function App() {
     <div className="main-container">
       <header className="header-container">
         <div className="profil-foto">
-          <img src="https://secure.gravatar.com/avatar/3da283f44646867ed9c7e7e022340300?size=150" align="left" alt="foto" />
+          <img src="https://secure.gravatar.com/avatar/3da283f44646867ed9c7e7e022340300?size=150" alt="foto"/>
         </div>
         <div className="main-info">
           <h1>Victoria Kush</h1>
           <ul>
             <li>
-              <i className='fa fa-phone'></i><a href="tel:71465372">71 46 53 72</a>
+              <i className='fa fa-phone'></i><a href="tel:71465372" title="nummer of the phone">71 46 53 72</a>
             </li>
             <li>
-              <i className='fa fa-envelope'></i><a href="mailto:victoria.v.kush@gmail.com?" subject="subject text">victoria.v.kush@gmail.com</a>
+              <i className='fa fa-envelope'></i><a href="mailto:victoria.v.kush@gmail.com?" title="e-mail" subject="subject text">victoria.v.kush@gmail.com</a>
             </li>
             <li>
-              <i className='fa fa-linkedin'></i><a href="https://www.linkedin.com/in/victoria-kush-4a0455155">https://www.linkedin.com/in/victoria-kush-4a0455155/</a>
+              <i className='fa fa-linkedin'></i><a href="https://www.linkedin.com/in/victoria-kush-4a0455155" title="profil of the linkedin account">https://www.linkedin.com/in/victoria-kush-4a0455155/</a>
             </li>
           </ul>
         </div>
@@ -80,6 +81,23 @@ function App() {
         <h3>Bachelor's Degree in Psychology V. N. Karazin Kharkiv National University.</h3>
         <p><i>2003-2008</i></p>
       </section>
+      <section className="motivation">
+        <h2>Motivation and learning strategies</h2>
+        <div className="learning">
+          <ul className="column column-1">
+            <li>Use the right HTML element at the right place</li>
+            <li>Don’t use divs for everything</li>
+            <li>Think about CSS as reusable components</li>
+          </ul>
+          <div className="column">
+            <Iframe  className="video" url="https://www.youtube.com/embed/CfeRThEQFFE" title="Coding Motivational Video"/>
+          </div>
+          <ul className="column">
+            <li>Define utilities in CSS to dry up CSS</li>
+            <li>Care about the front-end code, take ownership of it, and always continue to improve upon it</li>
+          </ul>
+        </div>
+      </section>  
       <footer>
         <section className="copyright">
           © 2020 Victoria Kush

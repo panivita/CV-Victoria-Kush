@@ -38,7 +38,7 @@ header a {
 .main-info ul {
   padding: 0;
 }
- .main-info li {
+ .main-info li, .skills li {
   list-style: none;
 }
  section {
@@ -61,10 +61,8 @@ h3 {
   text-decoration: underline;
   margin-bottom: -12px;
 }
-i {
-  color: #70A9A1;
-}
 .fa {
+  color: #70A9A1;
   font-size: 20px;
   padding-right: 15px;
 }
@@ -74,15 +72,27 @@ i {
 .personal-skills ul, .skills ul {
   columns: 3;
 }
-.skills li {
-  list-style: none;
-}
 .skills img {
   width: 20px;
   padding-right: 15px;
 }
 .logo-js {
   line-height: 0px;
+}
+.learning {
+  display: flex;
+  margin-top: 30px;
+}
+.column {
+  padding-right: 10px;
+  flex: 33%;
+  line-height: 25px;
+}
+.column-1 {
+  margin-left: -20px;
+}
+.video {
+  position: relative;
 }
 footer {
   margin-top: 30px;
