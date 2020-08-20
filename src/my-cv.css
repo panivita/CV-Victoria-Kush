@@ -69,16 +69,19 @@ h3 {
 .fa-phone {
   font-size: 23px;
 }
-.personal-skills ul, .skills ul {
+.personal-skills ul {
   columns: 3;
 }
-.skills img {
-  width: 20px;
-  padding-right: 15px;
+.skills ul {
+  columns: 5;
 }
-.logo-js {
-  line-height: 0px;
+.personal-skills ul {
+  padding-left: 60px;
 }
+.skills svg, .main-info svg {
+  padding-right: 10px;
+}
+
 .learning {
   display: flex;
   margin-top: 30px;
