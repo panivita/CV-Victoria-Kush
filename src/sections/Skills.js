@@ -35,19 +35,19 @@ export const Skills = () => {
         <h2>SKILLS</h2>
         <ul>
           <li>
-            <i class="fab fa-html5"></i>HTML
+            <i className="fab fa-html5"></i>HTML
           </li>
           <li>
-            <i class="fab fa-css3-alt"></i>CSS
+            <i className="fab fa-css3-alt"></i>CSS
           </li>
           <li>
-            <i class="fab fa-js"></i>JavaScript
+            <i className="fab fa-js"></i>JavaScript
           </li>
           <li>
-            <i class="fab fa-react"></i>React
+            <i className="fab fa-react"></i>React
           </li>
           <li>
-            <i class="fas fa-database"></i>Database
+            <i className="fas fa-database"></i>Database
           </li>
         </ul>
       </section>

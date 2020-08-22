@@ -21,7 +21,7 @@ export const Header = () => {
       </div>
       <div className="main-info">
         <h1>Victoria Kush</h1>
-        <ul>
+        <ul className="contact-details">
           <li>
             <i className="fas fa-phone-alt"></i>
             <a href="tel:71465372" title="nummer of the phone">
@@ -34,26 +34,32 @@ export const Header = () => {
               href="mailto:victoria.v.kush@gmail.com?"
               title="e-mail"
               subject="subject text"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               victoria.v.kush@gmail.com
             </a>
           </li>
           <li>
-            <i class="fab fa-linkedin"></i>
+            <i className="fab fa-linkedin"></i>
             <a
               href="https://www.linkedin.com/in/victoria-kush-4a0455155"
               title="profil of the linkedin account"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              https://www.linkedin.com/in/victoria-kush-4a0455155/
+              Linkedin account
             </a>
           </li>
           <li>
-          <i className="fab fa-github"></i>
+            <i className="fab fa-github"></i>
             <a
               href="https://github.com/panivita"
               title="profil of the github account"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              https://github.com/panivita
+              Github account
             </a>
           </li>
         </ul>
@@ -61,4 +67,3 @@ export const Header = () => {
     </header>
   );
 };
-

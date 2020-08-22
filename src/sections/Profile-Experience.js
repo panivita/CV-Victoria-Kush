@@ -27,16 +27,20 @@ export const ProfileExperience = () => {
             <a
               href="https://homemade-cakes.herokuapp.com/"
               title="about my hobby website"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               link below
             </a>
-            ) with animations and interactivity
+            ) with interactivity
           </li>
           <li>
             Built shopping cart (
             <a
               href="https://panivita.github.io/demo/javascript/javascript3/week3/Shopping-cart/index.html"
               title="shopping cart in github.pages"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               link below
             </a>
@@ -47,6 +51,8 @@ export const ProfileExperience = () => {
             <a
               href="https://panivita.github.io/hyf-homework/javascript/javascript3/week1/Weather-app/index.html"
               title="weather app in github.pages"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               link below
             </a>
