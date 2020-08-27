@@ -47,6 +47,18 @@ export const ProfileExperience = () => {
             )
           </li>
           <li>
+            Built github user seacher (
+            <a
+              href="https://github-seacher.herokuapp.com/"
+              title="github user seacher"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              link below
+            </a>
+            )
+          </li>
+          <li>
             Built a weather app (
             <a
               href="https://panivita.github.io/hyf-homework/javascript/javascript3/week1/Weather-app/index.html"
