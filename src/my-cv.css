@@ -79,12 +79,12 @@ h3 {
   font-size: 23px;
 }
 
-.personal-skills ul {
-  columns: 3;
+.personal-skills li {
+  padding: 1% 0;
 }
 
-.skills ul {
-  columns: 5;
+.personal-skills ul {
+  columns: 2;
 }
 
 .personal-skills ul, .column, .experience ul {

@@ -81,7 +81,7 @@ export const ProfileExperience = () => {
           I made statistical work and led statistics of both evaluations of
           interviews and records of inquiries. I have used my computer skills
           and knowledge of MS Office applications especially MS Excel.
-          Statistical work was done for the 6 month of work of the ÅBEN
+          Statistical work was done for the one and half year of work of the ÅBEN
           PÅRØRENDERÅDGIVNING, that show the effectiveness of the work of
           consultants and allowed to make changes to further improve their work.
         </p>
@@ -100,18 +100,6 @@ export const ProfileExperience = () => {
           and led discussions on lecture materials. Attended lectures, held
           office hours, wrote exam questions, and proctored and graded exams.
         </p>
-        <p>My students have characterized me as a capable:</p>
-        <ul>
-          <li>
-            to adapt communication style to the needs of different students,
-            depending on their age, culture, ability, and learning style;
-          </li>
-          <li>to effectively speak with students, using a calm, clear tone;</li>
-          <li>
-            the material in terms that are both accessible and meaningful to the
-            students;
-          </li>
-        </ul>
         <p>
           My director had confidence that I could solve my tasks, often under a
           tight deadline. She have characterized me as a capable to learn, to
