@@ -10,9 +10,15 @@ const App = () => {
   return (
     <div className="main-container">
       <Header />
-      <ProfileExperience />
-      <Skills />
-      <Education />
+      <div className="main-column">
+        <div className="skills-column">
+          <Skills />
+        </div>
+        <div className="expirience-column">
+          <ProfileExperience />
+          <Education />
+        </div>
+      </div>
       <Footer />
     </div>
   );
