@@ -11,7 +11,7 @@ export const Education = () => {
         </p>
         <p>
           The curriculum includes
-          HTML/CSS/Git/CLI/Javascript/NodeJS/ExpressJS/React etc.
+          HTML/ CSS/ Git/ CLI/ Javascript/ NodeJS/ ExpressJS/ React etc.
         </p>
         <h3>Ph.d. in Psychology V. N. Karazin Kharkiv National University.</h3>
         <p>

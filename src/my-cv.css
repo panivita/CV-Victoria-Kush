@@ -23,14 +23,14 @@ body {
 }
 
 .expirience-column {
-margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .header-container {
   display: flex;
   padding: 30px;
   color: white;
-  background-image: linear-gradient(45deg, #2f4c58 25%, transparent 25%), linear-gradient(-45deg, #2f4c58 25%, transparent 25%), linear-gradient(135deg,#2f4c58 25%, transparent 25%), linear-gradient(-135deg, #2f4c58 25%, transparent 25%);
+  background-image: linear-gradient(45deg, #2f4c58 25%, transparent 25%), linear-gradient(-45deg, #2f4c58 25%, transparent 25%), linear-gradient(135deg, #2f4c58 25%, transparent 25%), linear-gradient(-135deg, #2f4c58 25%, transparent 25%);
   background-position: 10px 0, 10px 0, 0 0, 0 0;
   background-size: 20px 20px;
   background-color: #111b1e;
@@ -94,10 +94,12 @@ h3 {
 .personal-skills li {
   padding: 1% 0;
 }
+
 .personal-skills ul, .column {
   padding-left: 0;
 }
- .experience ul {
+
+.experience ul {
   padding-left: 60px;
 }
 
@@ -117,7 +119,7 @@ h3 {
 
 footer {
   color: white;
-  background-image: linear-gradient(45deg, #2f4c58 25%, transparent 25%), linear-gradient(-45deg, #2f4c58 25%, transparent 25%), linear-gradient(135deg,#2f4c58 25%, transparent 25%), linear-gradient(-135deg, #2f4c58 25%, transparent 25%);
+  background-image: linear-gradient(45deg, #2f4c58 25%, transparent 25%), linear-gradient(-45deg, #2f4c58 25%, transparent 25%), linear-gradient(135deg, #2f4c58 25%, transparent 25%), linear-gradient(-135deg, #2f4c58 25%, transparent 25%);
   background-position: 10px 0, 10px 0, 0 0, 0 0;
   background-size: 20px 20px;
   background-color: #111b1e;
@@ -132,4 +134,52 @@ footer {
 
 .experience a {
   color: #46596C;
+}
+
+@media screen and (max-width: 1050px) {
+  .main-container {
+    width: 99%;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  h1 {
+    font-size: 22px;
+    margin-bottom: 0;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .contact-details {
+    font-size: 14px;
+    margin-top: 5%;
+  }
+  .experience ul {
+    padding-left: 15px;
+  }
+  .header-container {
+    padding: 5% 4%;
+  }
+  .profil-foto img {
+    width: 110px;
+    height: 110px;
+  }
+  .main-info {
+    margin-left: 5%;
+  }
+  .personal-skills ul, .motivation ul {
+    padding-left: 15px;
+  }
+  .skills-column {
+    background-color: #eeeeee;
+    width: 100%;
+    order: 2;
+  }
+  .main-column {
+    flex-direction: column;
+    flex-flow: wrap;
+  }
 }
