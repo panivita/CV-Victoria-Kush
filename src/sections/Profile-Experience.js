@@ -21,7 +21,7 @@ export const ProfileExperience = () => {
           <i>Internship from September 2020</i>
         </p>
         <ul>
-          <li>Working with React / ReactBootstrap / CSS</li>
+          <li>Working with React / ReactNative / CSS</li>
           <li>
             Working on building a responsive company{" "}
             <a
