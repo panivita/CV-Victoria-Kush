@@ -11,14 +11,14 @@ export const ProfileExperience = () => {
           thorough and precise in everything I do and have a keen interest in
           technology, web development, and user experience. As someone who takes
           responsibility for their personal development, I am continually
-          evaluating and upgrading my skills.
+          evaluating and upgrading my skills. 
         </p>
       </section>
       <section className="experience">
         <h2>EXPERIENCE</h2>
-        <h3>Intern Front-end Web Developer in Fizzit</h3>
+        <h3>Front-end Web Developer in Fizzit</h3>
         <p>
-          <i>From September 2020</i>
+          <i>Internship from September 2020</i>
         </p>
         <ul>
           <li>Working with React / ReactBootstrap / CSS</li>
@@ -42,6 +42,10 @@ export const ProfileExperience = () => {
             and relevant
           </li>
           <li>
+            Cooperating with the back-end developer in the process of building
+            the RESTful API.
+          </li>
+          <li>
             Teamwork & Experience communicating with a creative and ambitious
             development team
           </li>
@@ -58,7 +62,7 @@ export const ProfileExperience = () => {
           <i>From Februar 2019</i>
         </p>
         <ul>
-          <li>Learned HTML / CSS / JavaScript / React</li>
+          <li>Learned HTML / CSS / JavaScript / TypeScript / React</li>
           <li>
             Built a responsive website (
             <a
@@ -118,9 +122,12 @@ export const ProfileExperience = () => {
         <p>
           Course: Projective methods of personality research. It conducted two
           50-minute discussions twice per week, with a group of 15-20
-          undergraduates in each section. Developed and led discussions on
-          lecture materials. Attended lectures, held office hours, wrote exam
-          questions, and proctored and graded exams.
+          undergraduates in each section.
+        </p>
+        <p>
+          Developed and led discussions on lecture materials. Attended lectures,
+          held office hours, wrote exam questions, and proctored and graded
+          exams.
         </p>
       </section>
     </>

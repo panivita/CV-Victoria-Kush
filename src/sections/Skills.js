@@ -48,6 +48,7 @@ export const Skills = () => {
             Fair understanding of <i className="fab fa-js"></i> JavaScript
             programming and DOM manipulation.{" "}
           </li>
+          <li>Experience in TypeScript.</li>
           <li>Coding in ES6 standards for readability, maintainability.</li>
           <li>
             <i className="fab fa-git-alt"></i> Git. Experience keep the track of
@@ -59,7 +60,12 @@ export const Skills = () => {
             its core principles. Experience with React Hook Form, React Hooks.
           </li>
           <li>
-            Adequate knowledge how servers work as well as APIs, MySQL, the <i className="fas fa-database"></i> database.
+            Experience in creating user validation forms and sending data to
+            server using RESTful services.
+          </li>
+          <li>
+            Adequate knowledge how servers work as well as APIs, MySQL, the{" "}
+            <i className="fas fa-database"></i> database.
           </li>
           <li>
             Understanding how core <i className="fab fa-node"></i> Node.js
