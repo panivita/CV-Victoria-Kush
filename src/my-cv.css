@@ -132,7 +132,7 @@ footer {
   padding: 20px;
 }
 
-.experience a {
+.experience a, .column a {
   color: #46596C;
 }
 

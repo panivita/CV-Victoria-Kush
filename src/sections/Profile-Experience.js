@@ -64,7 +64,7 @@ export const ProfileExperience = () => {
         <ul>
           <li>Learned HTML / CSS / JavaScript / TypeScript / React</li>
           <li>
-            Built a responsive website (
+            Built a fullstack app (
             <a
               href="https://homemade-cakes.herokuapp.com/"
               title="about my hobby website"
@@ -80,6 +80,18 @@ export const ProfileExperience = () => {
             <a
               href="https://panivita.github.io/demo/javascript/javascript3/week3/Shopping-cart/index.html"
               title="shopping cart in github.pages"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              link below
+            </a>
+            )
+          </li>
+          <li>
+            Project build with React Bootstrap (
+            <a
+              href="https://tenancy-challenge.herokuapp.com/"
+              title="tenancy project"
               target="_blank"
               rel="noopener noreferrer"
             >

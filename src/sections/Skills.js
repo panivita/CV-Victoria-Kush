@@ -83,6 +83,18 @@ export const Skills = () => {
               JavaScript Algorithms and Data Structures Certification by
               freeCodeCamp
             </li>
+            <li>
+              HackerRank profile (
+              <a
+                href="https://www.hackerrank.com/victoria_v_kush"
+                title="HackerRank profile"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                link below
+              </a>
+              )
+            </li>
           </ul>
         </div>
       </section>
