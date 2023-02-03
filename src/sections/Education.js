@@ -4,7 +4,7 @@ export const Education = () => {
   return (
     <>
       <section className="education">
-        <h2 style={{ marginTop: "8%" }}>EDUCATION</h2>
+        <h2 className="education-title">EDUCATION</h2>
         <h3>Full Stack Web Development in HackYourFuture - Copenhagen</h3>
         <p>
           <i>2020</i>

@@ -19,10 +19,11 @@ body {
 
 .skills-column {
   background-color: #e4dbd9;
-  width: 110%;
+  width: 30%;
 }
 
 .expirience-column {
+  width: 70%;
   margin-bottom: 0;
 }
 
@@ -30,7 +31,10 @@ body {
   display: flex;
   padding: 30px;
   color: white;
-  background-image: linear-gradient(45deg, #2f4c58 25%, transparent 25%), linear-gradient(-45deg, #2f4c58 25%, transparent 25%), linear-gradient(135deg, #2f4c58 25%, transparent 25%), linear-gradient(-135deg, #2f4c58 25%, transparent 25%);
+  background-image: linear-gradient(45deg, #2f4c58 25%, transparent 25%),
+    linear-gradient(-45deg, #2f4c58 25%, transparent 25%),
+    linear-gradient(135deg, #2f4c58 25%, transparent 25%),
+    linear-gradient(-135deg, #2f4c58 25%, transparent 25%);
   background-position: 10px 0, 10px 0, 0 0, 0 0;
   background-size: 20px 20px;
   background-color: #111b1e;
@@ -54,7 +58,8 @@ header a {
   padding: 0;
 }
 
-.main-info li, .skills li {
+.main-info li,
+.skills li {
   list-style: none;
 }
 
@@ -69,20 +74,20 @@ h1 {
 }
 
 h2 {
-  border-bottom: solid #6e93d6 2px;
+  border-bottom: solid #6e93d6;
   padding-bottom: 8px;
   color: #34495e;
 }
 
 h3 {
-  color: #46596C;
+  color: #46596c;
   font-weight: normal;
   text-decoration: underline;
   margin-bottom: -12px;
 }
 
 .fa {
-  color: #70A9A1;
+  color: #70a9a1;
   font-size: 20px;
   padding-right: 15px;
 }
@@ -95,7 +100,8 @@ h3 {
   padding: 1% 0;
 }
 
-.personal-skills ul, .column {
+.personal-skills ul,
+.column {
   padding-left: 0;
 }
 
@@ -103,7 +109,8 @@ h3 {
   padding-left: 60px;
 }
 
-.skills svg, .main-info svg {
+.skills svg,
+.main-info svg {
   padding-right: 10px;
 }
 
@@ -119,7 +126,10 @@ h3 {
 
 footer {
   color: white;
-  background-image: linear-gradient(45deg, #2f4c58 25%, transparent 25%), linear-gradient(-45deg, #2f4c58 25%, transparent 25%), linear-gradient(135deg, #2f4c58 25%, transparent 25%), linear-gradient(-135deg, #2f4c58 25%, transparent 25%);
+  background-image: linear-gradient(45deg, #2f4c58 25%, transparent 25%),
+    linear-gradient(-45deg, #2f4c58 25%, transparent 25%),
+    linear-gradient(135deg, #2f4c58 25%, transparent 25%),
+    linear-gradient(-135deg, #2f4c58 25%, transparent 25%);
   background-position: 10px 0, 10px 0, 0 0, 0 0;
   background-size: 20px 20px;
   background-color: #111b1e;
@@ -132,13 +142,27 @@ footer {
   padding: 20px;
 }
 
-.experience a, .column a {
-  color: #46596C;
+.experience a,
+.column a {
+  color: #46596c;
 }
 
-@media screen and (max-width: 1050px) {
+.certificate-title {
+  margin-top: 4rem;
+}
+
+@media screen and (max-width: 820px) {
+  .profile-title {
+    margin-top: 3rem;
+  }
   .main-container {
     width: 99%;
+  }
+  .education-title {
+    margin-top: 6rem;
+  }
+  .certificate-title {
+    margin-top: 1rem;
   }
 }
 
@@ -152,6 +176,9 @@ footer {
   }
   h3 {
     font-size: 16px;
+  }
+  .profile-title {
+    margin-top: 2rem;
   }
   .contact-details {
     font-size: 14px;
@@ -170,13 +197,21 @@ footer {
   .main-info {
     margin-left: 5%;
   }
-  .personal-skills ul, .motivation ul {
+  .personal-skills ul,
+  .motivation ul {
     padding-left: 15px;
   }
   .skills-column {
     background-color: #eeeeee;
     width: 100%;
     order: 2;
+  }
+  .expirience-column {
+    width: 100%;
+  }
+  .certificate-title,
+  .education-title {
+    margin-top: 2rem;
   }
   .main-column {
     flex-direction: column;

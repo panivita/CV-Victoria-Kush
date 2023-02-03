@@ -4,21 +4,66 @@ export const ProfileExperience = () => {
   return (
     <>
       <section className="profile">
-        <h2>PROFILE</h2>
+        <h2 className="profile-title">PROFILE</h2>
         <p>
           I am an ambitious problem solver with a passion for web development,
           and I would like to join a team of like-minded developers. I am
           thorough and precise in everything I do and have a keen interest in
           technology, web development, and user experience. As someone who takes
           responsibility for their personal development, I am continually
-          evaluating and upgrading my skills. 
+          evaluating and upgrading my skills.
         </p>
       </section>
       <section className="experience">
         <h2>EXPERIENCE</h2>
+        <h3>Front-end Web Developer in AKQA</h3>
+        <p>
+          <i>From March 2022</i>
+        </p>
+        <ul>
+          <li>
+            Working with React / Tailwind CSS/ Theme UI / TypeScript / Docker /
+            GraphQL / Figma / Storybook.
+          </li>
+          <li>
+            Worked closely with other departments to facilitate the solving of
+            day-to-day challenges.
+          </li>
+          <li>
+            Building best-in-class applications, serving users on the modern web
+            landscape.
+          </li>
+          <li>
+            Provided technical answers and effective technical decisions to
+            solve client problems.
+          </li>
+        </ul>
+        <h3>Full-stack developer in Human Hotel</h3>
+        <p>
+          <i>April 2021 - February 2022</i>
+        </p>
+        <ul>
+          <li>
+            Working with React / Redux / Docker / GraphQL / Bootstrap / Figma /
+            Storybook.
+          </li>
+          <li>
+            Identified new needs and requirements and developed web products
+            that focused on usability and user experience.
+          </li>
+          <li>
+            Created clean, maintainable, cross-browser compatible code from
+            mockups.
+          </li>
+          <li>
+            Resolved bugs in the product to improve performance and help
+            customers.
+          </li>
+        </ul>
+
         <h3>Front-end Web Developer in Fizzit</h3>
         <p>
-          <i>Internship from September 2020</i>
+          <i>September 2020 - March 2021</i>
         </p>
         <ul>
           <li>Working with React / ReactNative / CSS</li>
@@ -124,23 +169,6 @@ export const ProfileExperience = () => {
             ) based on user input
           </li>
         </ul>
-        <h3>
-          Lecturer, Institit Psychology V. N. Karazin Kharkiv National
-          University.
-        </h3>
-        <p>
-          <i>September 2009 – Januar 2015</i>
-        </p>
-        <p>
-          Course: Projective methods of personality research. It conducted two
-          50-minute discussions twice per week, with a group of 15-20
-          undergraduates in each section.
-        </p>
-        <p>
-          Developed and led discussions on lecture materials. Attended lectures,
-          held office hours, wrote exam questions, and proctored and graded
-          exams.
-        </p>
       </section>
     </>
   );

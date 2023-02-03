@@ -45,8 +45,17 @@ export const Skills = () => {
             <i className="fab fa-css3-alt"></i> CSS media queries.
           </li>
           <li>
-            Fair understanding of <i className="fab fa-js"></i> JavaScript
-            programming and DOM manipulation.{" "}
+            Mastery of advanced animation techniques:{" "}
+            <i className="fab fa-css3-alt"></i>CSS, SVG, canvas.
+          </li>
+          <li>
+            Experience with general User Experience concepts and the ability to
+            design highly effective user interfaces.
+          </li>
+          <li>
+            Solid understanding of the web application ecosystem,
+            <i className="fab fa-js"></i> JavaScript programming and DOM
+            manipulation.
           </li>
           <li>Experience in TypeScript.</li>
           <li>Coding in ES6 standards for readability, maintainability.</li>
@@ -72,10 +81,14 @@ export const Skills = () => {
             works. Experience deploying my <i className="fab fa-node"></i>{" "}
             application to a cloud platform Heroku.
           </li>
+          <li>
+            Thorough understanding of Agile methodologies. Familiarity with
+            Atlassian Tools (Jira, Confluence).
+          </li>
         </ul>
       </section>
       <section className="motivation">
-        <h2>CERTIFICATES</h2>
+        <h2 className="certificate-title">CERTIFICATES</h2>
         <div className="learning">
           <ul className="column">
             <li>Responsive Web Design Certification by freeCodeCamp</li>
