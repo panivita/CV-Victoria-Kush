@@ -147,7 +147,7 @@ export const ProfileExperience = () => {
           <li>
             Built github user seacher (
             <a
-              href="https://github-seacher.herokuapp.com/"
+              href="https://panivita.github.io/github-user-seacher-app"
               title="github user seacher"
               target="_blank"
               rel="noopener noreferrer"
