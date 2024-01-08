@@ -3,12 +3,12 @@ import React from "react";
 import "font-awesome/css/font-awesome.min.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faPhoneAlt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faPhoneAlt, faEnvelope, faFileDownload} from "@fortawesome/free-solid-svg-icons";
 import { dom } from "@fortawesome/fontawesome-svg-core";
 
 dom.watch();
 
-library.add(faPhoneAlt, faEnvelope, faLinkedin, faGithub);
+library.add(faPhoneAlt, faEnvelope, faLinkedin, faGithub, faFileDownload);
 
 export const Header = () => {
   return (
@@ -60,6 +60,18 @@ export const Header = () => {
               rel="noopener noreferrer"
             >
               Github account
+            </a>
+          </li>
+					<li>
+            <i className="fas fa-file-download"/>
+            <a
+              href="https://fastupload.io/8WfR068mvDYikk6/file"
+              title="profil of the github account"
+              target="_blank"
+              rel="noopener noreferrer"
+							download
+            >
+              Download CV
             </a>
           </li>
         </ul>

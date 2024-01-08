@@ -70,7 +70,7 @@ section {
 
 h1 {
   margin-top: -8px;
-  margin-bottom: 43px;
+  margin-bottom: 25px;
 }
 
 h2 {
@@ -148,7 +148,7 @@ footer {
 }
 
 .certificate-title {
-  margin-top: 4rem;
+  margin-top: 2.5rem;
 }
 
 @media screen and (max-width: 820px) {

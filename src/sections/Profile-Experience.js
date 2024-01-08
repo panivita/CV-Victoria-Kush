@@ -16,14 +16,32 @@ export const ProfileExperience = () => {
       </section>
       <section className="experience">
         <h2>EXPERIENCE</h2>
-        <h3>Front-end Web Developer in AKQA</h3>
+				<h3>Frontend Developer in YELLOW UMWELT</h3>
         <p>
-          <i>From March 2022</i>
+          <i>From March 2023</i>
+        </p>
+        <ul>
+          <li>
+					Working with React / Tailwind CSS/ NextJs / Netlify / TypeScript /Storyblok / Xd / Storybook.
+          </li>
+          <li>
+						Worked closely with other departments to deliver digital assets for the website to ensure a harmonized digital representation.
+          </li>
+          <li>
+						Created adaptable and reusable solutions, translated business requirements into code.
+          </li>
+          <li>
+						Deployment and support developed web sites.
+          </li>
+        </ul>
+        <h3>Frontend Web Developer in AKQA</h3>
+        <p>
+          <i>March 2022 - March 2023</i>
         </p>
         <ul>
           <li>
             Working with React / Tailwind CSS/ Theme UI / TypeScript / Docker /
-            GraphQL / Figma / Storybook.
+            GraphQL / Figma / Storybook / Contentful.
           </li>
           <li>
             Worked closely with other departments to facilitate the solving of
@@ -61,30 +79,22 @@ export const ProfileExperience = () => {
           </li>
         </ul>
 
-        <h3>Front-end Web Developer in Fizzit</h3>
+        <h3>Frontend Web Developer in Fizzit</h3>
         <p>
           <i>September 2020 - March 2021</i>
         </p>
         <ul>
           <li>Working with React / ReactNative / CSS</li>
           <li>
-            Working on building a responsive company{" "}
-            <a
-              href="https://fizzit.green/"
-              title="company website"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              website
-            </a>
+            Working on building a responsive company website.
           </li>
           <li>
             Develop web pages and content consistent with Fizzit branding
-            guidelines
+            guidelines.
           </li>
           <li>
             Research new and existing tools/techniques to keep programs current
-            and relevant
+            and relevant.
           </li>
           <li>
             Cooperating with the back-end developer in the process of building
@@ -92,81 +102,24 @@ export const ProfileExperience = () => {
           </li>
           <li>
             Teamwork & Experience communicating with a creative and ambitious
-            development team
+            development team.
           </li>
         </ul>
-        <p>
-          My team leader had confidence that I could solve my tasks, often under
-          a tight deadline. He has characterized me as capable of learning, to
-          process and apply knowledge, to analyze and reason, and to evaluate
-          and decide.
-        </p>
 
-        <h3>Front-end Web Developer Self-Employed</h3>
+        <h3>Frontend Web Developer Self-Employed</h3>
         <p>
           <i>From Februar 2019</i>
         </p>
         <ul>
-          <li>Learned HTML / CSS / JavaScript / TypeScript / React</li>
+          <li>Working with CSS / JavaScript / React / NodeJs / Google Analytics / WordPress</li>
           <li>
-            Built a fullstack app (
-            <a
-              href="https://homemade-cakes.herokuapp.com/"
-              title="about my hobby website"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              link below
-            </a>
-            ) with interactivity
+						Built fully responsive websites with interactivity and a focus on user experience.
           </li>
           <li>
-            Built shopping cart (
-            <a
-              href="https://panivita.github.io/demo/javascript/javascript3/week3/Shopping-cart/index.html"
-              title="shopping cart in github.pages"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              link below
-            </a>
-            )
+            Have maintained websites, checking for errors, broken links and improving sites performance.
           </li>
           <li>
-            Project build with React Bootstrap (
-            <a
-              href="https://tenancy-challenge.herokuapp.com/"
-              title="tenancy project"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              link below
-            </a>
-            )
-          </li>
-          <li>
-            Built github user seacher (
-            <a
-              href="https://panivita.github.io/github-user-seacher-app"
-              title="github user seacher"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              link below
-            </a>
-            )
-          </li>
-          <li>
-            Built a weather app (
-            <a
-              href="https://panivita.github.io/hyf-homework/javascript/javascript3/week1/Weather-app/index.html"
-              title="weather app in github.pages"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              link below
-            </a>
-            ) based on user input
+            Bug fixing and sites support.
           </li>
         </ul>
       </section>

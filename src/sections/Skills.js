@@ -8,13 +8,14 @@ import {
   faReact,
   faGitAlt,
   faNode,
+	faFigma,
 } from "@fortawesome/free-brands-svg-icons";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 import { dom } from "@fortawesome/fontawesome-svg-core";
 
 dom.watch();
 
-library.add(faHtml5, faCss3Alt, faJs, faReact, faDatabase, faGitAlt, faNode);
+library.add(faHtml5, faCss3Alt, faJs, faReact, faDatabase, faGitAlt, faNode, faFigma);
 
 export const Skills = () => {
   return (
@@ -27,13 +28,13 @@ export const Skills = () => {
             skills.
           </li>
           <li>
-            Effective oral communication skills, organizational skills and
-            attention to detail.
+            Effective oral communication skills, organizational skills.
           </li>
           <li>
             Excellent interpersonal, communication and cross-group collaboration
             skills.
           </li>
+					<li>Boundless creativity and relentless attention to detail.</li>
           <li>
             Proficient understanding of web markup, including knowledge of
             modern <i className="fab fa-html5"></i> HTML/{" "}
@@ -57,7 +58,7 @@ export const Skills = () => {
             <i className="fab fa-js"></i> JavaScript programming and DOM
             manipulation.
           </li>
-          <li>Experience in TypeScript.</li>
+          <li>Experience in TypeScript and NextJs.</li>
           <li>Coding in ES6 standards for readability, maintainability.</li>
           <li>
             <i className="fab fa-git-alt"></i> Git. Experience keep the track of
@@ -65,7 +66,7 @@ export const Skills = () => {
             managing merge conflicts.
           </li>
           <li>
-            Good understanding of <i className="fab fa-react"></i> React.js and
+            Great understanding of <i className="fab fa-react"></i> React.js and
             its core principles. Experience with React Hook Form, React Hooks.
           </li>
           <li>
@@ -82,9 +83,15 @@ export const Skills = () => {
             application to a cloud platform Heroku.
           </li>
           <li>
-            Thorough understanding of Agile methodologies. Familiarity with
+            Thorough understanding of Agile methodologies and principles. Familiarity with
             Atlassian Tools (Jira, Confluence).
           </li>
+					<li>
+						Good knowledge of technical SEO best practices.
+          </li>
+					<li>
+						Coding the <i className="fab fa-figma"></i> Figma and Xd mockups.
+					</li>
         </ul>
       </section>
       <section className="motivation">
@@ -92,10 +99,19 @@ export const Skills = () => {
         <div className="learning">
           <ul className="column">
             <li>Responsive Web Design Certification by freeCodeCamp</li>
-            <li>
+           {/* <li>
               JavaScript Algorithms and Data Structures Certification by
               freeCodeCamp
-            </li>
+            </li>*/}
+						<li>
+							Umbraco Fundamentals.
+						</li>
+						<li>
+							App Development and Product Fundamentals Certifications by Shopify.
+						</li>
+						<li>
+							Contentful Certification.
+						</li>
             <li>
               HackerRank profile (
               <a
