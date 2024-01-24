@@ -65,11 +65,11 @@ export const Header = () => {
 					<li>
             <i className="fas fa-file-download"/>
             <a
-              href="https://fastupload.io/8WfR068mvDYikk6/file"
-              title="profil of the github account"
+              href="https://github.com/panivita/CV-Victoria-Kush/raw/master/public/Victoria%20Kush%20CV%20dev.pdf"
+              title="download cv"
               target="_blank"
               rel="noopener noreferrer"
-							download
+			  download
             >
               Download CV
             </a>
