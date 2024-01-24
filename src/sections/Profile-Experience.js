@@ -16,22 +16,22 @@ export const ProfileExperience = () => {
       </section>
       <section className="experience">
         <h2>EXPERIENCE</h2>
-				<h3>Frontend Developer in YELLOW UMWELT</h3>
+			<h3>Senior Frontend Developer in Yellow Umwelt</h3>
         <p>
           <i>From March 2023</i>
         </p>
         <ul>
           <li>
-					Working with React / Tailwind CSS/ NextJs / Netlify / TypeScript /Storyblok / Xd / Storybook.
+				Working with React / Tailwind CSS/ NextJs / Netlify / TypeScript /Storyblok / Xd / Storybook.
           </li>
           <li>
-						Worked closely with other departments to deliver digital assets for the website to ensure a harmonized digital representation.
+				Worked closely with other departments to deliver digital assets for the website to ensure a harmonized digital representation.
           </li>
           <li>
-						Created adaptable and reusable solutions, translated business requirements into code.
+				Created adaptable and reusable solutions, translated business requirements into code.
           </li>
           <li>
-						Deployment and support developed web sites.
+				Deployment and support developed web sites.
           </li>
         </ul>
         <h3>Frontend Web Developer in AKQA</h3>
@@ -41,7 +41,7 @@ export const ProfileExperience = () => {
         <ul>
           <li>
             Working with React / Tailwind CSS/ Theme UI / TypeScript / Docker /
-            GraphQL / Figma / Storybook / Contentful.
+            GraphQL / Figma / Storybook / Contentful / Jest.
           </li>
           <li>
             Worked closely with other departments to facilitate the solving of
@@ -79,7 +79,7 @@ export const ProfileExperience = () => {
           </li>
         </ul>
 
-        <h3>Frontend Web Developer in Fizzit</h3>
+        <h3>Frontend Developer in Fizzit</h3>
         <p>
           <i>September 2020 - March 2021</i>
         </p>

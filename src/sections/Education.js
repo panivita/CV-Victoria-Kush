@@ -9,9 +9,9 @@ export const Education = () => {
         <p>
           <i>2020</i>
         </p>
+        <h3>Bachelor of Computer science V. N. Karazin Kharkiv National University.</h3>
         <p>
-          The curriculum includes HTML/ CSS/ Git/ CLI/ Javascript/ NodeJS/
-          ExpressJS/ React etc.
+          <i>2012 – 2014</i>
         </p>
         <h3>Ph.d. in Psychology V. N. Karazin Kharkiv National University.</h3>
         <p>
